@@ -36,6 +36,47 @@
 .hoverShake:hover {
     animation-name: shake;
 }
+@keyframes attention {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    2.5% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    5% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    7.5% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    10% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    12.5% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    15% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    17.5% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    22.5% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    25% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+    27.5% {
+        transform: translate(0,0) rotate(0deg);
+    }
+}
+.attention {
+    animation-name: attention;
+}
 @keyframes fadIn {
     from {
         opacity: 0
@@ -163,14 +204,84 @@
 .time0-1s {
     transition: 0.1s;
 }
-.speed1s{animation-duration: 1s}
-.speed0-9s{animation-duration: 0.9s}
-.speed0-8s{animation-duration: 0.8s}
-.speed0-7s{animation-duration: 0.7s}
-.speed0-6s{animation-duration: 0.6s}
-.speed0-5s{animation-duration: 0.5s}
-.speed0-4s{animation-duration: 0.4s}
-.speed0-3s{animation-duration: 0.3s}
+.speed10s {
+    animation-duration: 10s
+}
+.speed9s {
+    animation-duration: 9s
+}
+.speed8s {
+    animation-duration: 8s
+}
+.speed7s {
+    animation-duration: 7s
+}
+.speed6s {
+    animation-duration: 6s
+}
+.speed5s {
+    animation-duration: 5s
+}
+.speed4s {
+    animation-duration: 4s
+}
+.speed3s {
+    animation-duration: 3s
+}
+.speed2s {
+    animation-duration: 2s
+}
+.speed1-9s {
+    animation-duration: 1.9s
+}
+.speed1-8s {
+    animation-duration: 1.8s
+}
+.speed1-7s {
+    animation-duration: 1.7s
+}
+.speed1-6s {
+    animation-duration: 1.6s
+}
+.speed1-5s {
+    animation-duration: 1.5s
+}
+.speed1-4s {
+    animation-duration: 1.4s
+}
+.speed1-3s {
+    animation-duration: 1.3s
+}
+.speed1-2s {
+    animation-duration: 1.2s
+}
+.speed1-1s {
+    animation-duration: 1.1s
+}
+.speed1s {
+    animation-duration: 1s
+}
+.speed0-9s {
+    animation-duration: 0.9s
+}
+.speed0-8s {
+    animation-duration: 0.8s
+}
+.speed0-7s {
+    animation-duration: 0.7s
+}
+.speed0-6s {
+    animation-duration: 0.6s
+}
+.speed0-5s {
+    animation-duration: 0.5s
+}
+.speed0-4s {
+    animation-duration: 0.4s
+}
+.speed0-3s {
+    animation-duration: 0.3s
+}
 .speed0-2s {
     animation-duration: 0.2s
 }
