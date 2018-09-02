@@ -1,0 +1,399 @@
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes fadIn {
+    from{opacity: 0}
+    to{opacity: 1}
+}@keyframes fadOut {
+    from{opacity: 1}
+    to{opacity: 0}
+}
+.hoverFadeIn{
+    opacity: 0.5;
+}.hoverFadeIn:hover{
+    opacity: 1;
+}.hoverFadeOut{
+    opacity: 1;
+}.hoverFadeOut:hover{
+    opacity: 0.5;
+}
+.hoverRotateLeft{
+    transform: rotate(0deg);
+}.hoverRotateLeft:hover{
+    transform: rotate(-360deg);
+}.hoverRotateRight{
+    transform: rotate(0deg);
+}.hoverRotateRight:hover{
+    transform: rotate(360deg);
+}
+.hoverRotateUp{
+    transform: rotateX(0deg);
+}.hoverRotateUp:hover{
+    transform: rotateX(-360deg);
+}.hoverRotateDown{
+    transform: rotateX(0deg);
+}.hoverRotateDown:hover{
+    transform: rotateX(360deg);
+}
+.hoverTurnLeft{
+    transform: rotateY(0deg);
+}.hoverTurnLeft:hover{
+    transform: rotateY(-360deg);
+}.hoverTurnRight{
+    transform: rotateY(0deg);
+}.hoverTurnRight:hover{
+    transform: rotateY(360deg);
+}
+.time1s{transition: 1s}.time0-9s{transition: 0.9s}.time0-8s{transition: 0.8s}.time0-7s{transition: 0.7s}.time0-6s{transition: 0.6s}.time0-5s{transition: 0.5s}.time0-4s{transition: 0.4s}.time0-3s{transition: 0.3s}.time0-2s{transition: 0.2s}.time0-1s{transition: 0.1s}
+.speed1s{animation-duration: 1s}.speed0-9s{animation-duration: 0.9s}.speed0-8s{animation-duration: 0.8s}.speed0-7s{animation-duration: 0.7s}.speed0-6s{animation-duration: 0.6s}.speed0-5s{animation-duration: 0.5s}.speed0-4s{animation-duration: 0.4s}.speed0-3s{animation-duration: 0.3s}.speed0-2s{animation-duration: 0.2s}.speed0-1s{animation-duration: 0.1s}
+.times10{animation-iteration-count: 10}.times9{animation-iteration-count: 9}.times8{animation-iteration-count: 8}.times7{animation-iteration-count: 7}.times6{animation-iteration-count: 6}.times5{animation-iteration-count: 5}.times4{animation-iteration-count: 4}.times3{animation-iteration-count: 3}.times2{animation-iteration-count: 2}.times1{animation-iteration-count: 1}.times0{animation-iteration-count: infinite}
+.easyInOut{animation-timing-function: ease-in-out;}.easyIn{animation-timing-function: ease-in;}.easyOut{animation-timing-function: ease-out;}.linear{animation-timing-function: linear;}
+.steps1{animation-timing-function: steps(1);}.steps2{animation-timing-function: steps(2);}.steps3{animation-timing-function: steps(3);}.steps4{animation-timing-function: steps(4);}.steps5{animation-timing-function: steps(5);}.steps6{animation-timing-function: steps(6);}.steps7{animation-timing-function: steps(7);}.steps8{animation-timing-function: steps(8);}.steps9{animation-timing-function: steps(9);}.steps10{animation-timing-function: steps(10);}
+.hoverWhiteRed{
+    color:white;
+}.hoverWhiteRed:hover{
+    color:red;
+}.hoverWhiteGreen{
+    color:white;
+}.hoverWhiteGreen:hover{
+    color:green;
+}.hoverWhiteOrange{
+    color:white;
+}.hoverWhiteOrange:hover{
+    color:orange;
+}.hoverWhiteBlue{
+    color:white;
+}.hoverWhiteBlue:hover{
+    color:blue;
+}
+.hoverRedWhite{
+    color:red;
+}.hoverRedWhite:hover{
+    color:white;
+}.hoverRedGreen{
+    color:red;
+}.hoverRedGreen:hover{
+    color:green;
+}.hoverRedOrange{
+    color:red;
+}.hoverRedOrange:hover{
+    color:orange;
+}.hoverRedBlue{
+    color:red;
+}.hoverRedBlue:hover{
+    color:blue;
+}
+.hoverOrangeRed{
+    color:orange;
+}.hoverOrangeRed:hover{
+    color:red;
+}.hoverOrangeGreen{
+    color:orange;
+}.hoverOrangeGreen:hover{
+    color:green;
+}.hoverOrangeWhite{
+    color:orange;
+}.hoverOrangeWhite:hover{
+    color:white;
+}.hoverOrangeBlue{
+    color:orange;
+}.hoverOrangeBlue:hover{
+    color:blue;
+}
+.hoverGreenRed{
+    color:green;
+}.hoverGreenRed:hover{
+    color:red;
+}.hoverGreenWhite{
+    color:green;
+}.hoverGreenWhite:hover{
+    color:white;
+}.hoverGreenOrange{
+    color:green;
+}.hoverGreenOrange:hover{
+    color:orange;
+}.hoverGreenBlue{
+    color:green;
+}.hoverGreenBlue:hover{
+    color:blue;
+}
+.hoverBlueRed{
+    color:blue;
+}.hoverBlueRed:hover{
+    color:red;
+}.hoverBlueGreen{
+    color:blue;
+}.hoverBlueGreen:hover{
+    color:green;
+}.hoverBlueOrange{
+    color:blue;
+}.hoverBlueOrange:hover{
+    color:orange;
+}.hoverBlueWhite{
+    color:blue;
+}.hoverBlueWhite:hover{
+    color:white;
+}
+.rainbowUpDown{
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+}.rainbowDownUp{
+    background: linear-gradient(purple, blue, green, yellow, orange, red);
+}.rainbowLeftRight{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+}.rainbowRightLeft{
+    background: linear-gradient(to left,red, orange, yellow, green, blue, purple);
+}
+@keyframes rainbowUpDown {
+    0%{background: linear-gradient(red, orange, yellow, green, blue, purple);}
+    16.7%{background: linear-gradient(purple, red, orange, yellow, green, blue);}
+    33.3%{background: linear-gradient(blue, purple, red, orange, yellow, green);}
+    50%{background: linear-gradient(green, blue, purple, red, orange, yellow);}
+    66.7%{background: linear-gradient(yellow, green, blue, purple, red, orange);}
+    83.3%{background: linear-gradient(orange, yellow, green, blue, purple, red);}
+    100%{background: linear-gradient(red, orange, yellow, green, blue, purple);}
+}@keyframes rainbowDownUp {
+    0%{background: linear-gradient(red, orange, yellow, green, blue, purple);}
+    16.7%{background: linear-gradient(orange, yellow, green, blue, purple, red);}
+    33.3%{background: linear-gradient(yellow, green, blue, purple, red, orange);}
+    50%{background: linear-gradient(green, blue, purple, red, orange, yellow);}
+    66.7%{background: linear-gradient(blue, purple, red, orange, yellow, green);}
+    83.3%{background: linear-gradient(purple, red, orange, yellow, green, blue);}
+    100%{background: linear-gradient(red, orange, yellow, green, blue, purple);}
+}@keyframes rainbowLeftRight {
+    0%{background: linear-gradient(to right, red, orange, yellow, green, blue, purple);}
+    16.7%{background: linear-gradient(to right, purple, red, orange, yellow, green, blue);}
+    33.3%{background: linear-gradient(to right, blue, purple, red, orange, yellow, green);}
+    50%{background: linear-gradient(to right, green, blue, purple, red, orange, yellow);}
+    66.7%{background: linear-gradient(to right, yellow, green, blue, purple, red, orange);}
+    83.3%{background: linear-gradient(to right, orange, yellow, green, blue, purple, red);}
+    100%{background: linear-gradient(to right, red, orange, yellow, green, blue, purple);}
+}@keyframes rainbowRightLeft {
+    0%{background: linear-gradient(to left, red, orange, yellow, green, blue, purple);}
+    16.7%{background: linear-gradient(to left, purple, red, orange, yellow, green, blue);}
+    33.3%{background: linear-gradient(to left, blue, purple, red, orange, yellow, green);}
+    50%{background: linear-gradient(to left, green, blue, purple, red, orange, yellow);}
+    66.7%{background: linear-gradient(to left, yellow, green, blue, purple, red, orange);}
+    83.3%{background: linear-gradient(to left, orange, yellow, green, blue, purple, red);}
+    100%{background: linear-gradient(to left, red, orange, yellow, green, blue, purple);}
+}
+.animatedRainbowUpDown{
+    animation-name: rainbowUpDown;
+}.animatedRainbowDownUp{
+    animation-name: rainbowDownUp;
+}.animatedRainbowLeftRight{
+    animation-name: rainbowLeftRight;
+}.animatedRainbowRightLeft{
+    animation-name: rainbowRightLeft;
+}
+.hoverBlurOn{
+    filter: blur(0%);
+}.hoverBlurOn:hover{
+    filter: blur(100%);
+}.hoverBlurOff{
+    filter: blur(100%);
+}.hoverBlurOff:hover{
+    filter: blur(0%);
+}
+.hoverBrightnessOn{
+    filter: brightness(0%);
+}.hoverBrightnessOn:hover{
+    filter: brightness(100%);
+}.hoverBrightnessOff{
+    filter: brightness(100%);
+}.hoverBrightnessOff:hover{
+    filter: brightness(0%);
+}
+.hoverContrastOn{
+    filter: contrast(0%);
+}.hoverContrastOn:hover{
+    filter: contrast(100%);
+}.hoverContrastOff{
+    filter: contrast(100%);
+}.hoverContrastOff:hover{
+    filter: contrast(0%);
+}
+.hoverGrayscaleOn{
+    filter: grayscale(0%);
+}.hoverGrayscaleOn:hover{
+    filter: grayscale(100%);
+}.hoverGrayscaleOff{
+    filter: grayscale(100%);
+}.hoverGrayscaleOff:hover{
+    filter: grayscale(0%);
+}
+.hoverHueRotateOn{
+    filter: hue-rotate(0deg);
+}.hoverHueRotateOn:hover{
+    filter: hue-rotate(360deg);
+}.hoverHueRotateOff{
+    filter: hue-rotate(360deg);
+}.hoverHueRotateOff:hover{
+    filter: hue-rotate(0deg);
+}
+.hoverInvertOn{
+    filter: invert(0%);
+}.hoverInvertOn:hover{
+    filter: invert(100%);
+}.hoverInvertOff{
+    filter: invert(100%);
+}.hoverInvertOff:hover{
+    filter: invert(0%);
+}
+.hoverSaturateOn{
+    filter: saturate(0%);
+}.hoverSaturateOn:hover{
+    filter: saturate(100%);
+}.hoverSaturateOff{
+    filter: saturate(100%);
+}.hoverSaturateOff:hover{
+    filter: saturate(0%);
+}
+.hoverSepiaOn{
+    filter: sepia(0%);
+}.hoverSepiaOn:hover{
+    filter: sepia(100%);
+}.hoverSepiaOff{
+    filter: sepia(100%);
+}.hoverSepiaOff:hover{
+    filter: sepia(0%);
+}
+@keyframes blur {
+    from{filter: blur(0px)}
+    to{filter: blur(10px)}
+}
+.blur{
+    animation-name: blur;
+}
+.blur1{filter:blur(1px);}.blur2{filter:blur(2px);}.blur3{filter:blur(3px);}.blur4{filter:blur(4px);}.blur5{filter:blur(5px);}.blur6{filter:blur(6px);}.blur7{filter:blur(7px);}.blur8{filter:blur(8px);}.blur9{filter:blur(9px);}.blur10{filter:blur(10px);}
+@keyframes brightness {
+    from{filter: brightness(0%)}
+    to{filter: brightness(100%)}
+}
+.brightness{
+    animation-name: brightness;
+}
+.brightness1{filter:brightness(10%);}.brightness2{filter:brightness(20%);}.brightness3{filter:brightness(30%);}.brightness4{filter:brightness(40%);}.brightness5{filter:brightness(50%);}.brightness6{filter:brightness(60%);}.brightness7{filter:brightness(70%);}.brightness8{filter:brightness(80%);}.brightness9{filter:brightness(90%);}.brightness10{filter:brightness(100%);}.brightness11{filter:brightness(110%);}.brightness12{filter:brightness(120%);}.brightness13{filter:brightness(130%);}.brightness14{filter:brightness(140%);}.brightness15{filter:brightness(150%);}.brightness16{filter:brightness(160%);}.brightness17{filter:brightness(170%);}.brightness18{filter:brightness(180%);}.brightness19{filter:brightness(190%);}.brightness20{filter:brightness(200%);}
+@keyframes contrast {
+    from{filter: contrast(0%)}
+    to{filter: contrast(100%)}
+}
+.contrast{
+    animation-name: contrast;
+}
+.contrast1{filter:contrast(10%);}.contrast2{filter:contrast(20%);}.contrast3{filter:contrast(30%);}.contrast4{filter:contrast(40%);}.contrast5{filter:contrast(50%);}.contrast6{filter:contrast(60%);}.contrast7{filter:contrast(70%);}.contrast8{filter:contrast(80%);}.contrast9{filter:contrast(90%);}.contrast10{filter:contrast(100%);}.contrast11{filter:contrast(110%);}.contrast12{filter:contrast(120%);}.contrast13{filter:contrast(130%);}.contrast14{filter:contrast(140%);}.contrast15{filter:contrast(150%);}.contrast16{filter:contrast(160%);}.contrast17{filter:contrast(170%);}.contrast18{filter:contrast(180%);}.contrast19{filter:contrast(190%);}.contrast20{filter:contrast(200%);}
+@keyframes grayscale {
+    from{filter: grayscale(0%)}
+    to{filter: grayscale(100%)}
+}
+.grayscale{
+    animation-name: grayscale;
+}
+.grayscale1{filter:grayscale(10%);}.grayscale2{filter:grayscale(20%);}.grayscale3{filter:grayscale(30%);}.grayscale4{filter:grayscale(40%);}.grayscale5{filter:grayscale(50%);}.grayscale6{filter:grayscale(60%);}.grayscale7{filter:grayscale(70%);}.grayscale8{filter:grayscale(80%);}.grayscale9{filter:grayscale(90%);}.grayscale10{filter:grayscale(100%);}
+@keyframes hueRotate {
+    from{filter: hue-rotate(0deg)}
+    to{filter: hue-rotate(360deg)}
+}
+.hueRotate{
+    animation-name: hueRotate;
+}
+.hueRotate1{filter:hue-rotate(36deg);}.hueRotate2{filter:hue-rotate(82deg);}.hueRotate3{filter:hue-rotate(118deg);}.hueRotate4{filter:hue-rotate(154deg);}.hueRotate5{filter:hue-rotate(180deg);}.hueRotate6{filter:hue-rotate(216deg);}.hueRotate7{filter:hue-rotate(252deg);}.hueRotate8{filter:hue-rotate(288deg);}.hueRotate9{filter:hue-rotate(324deg);}.hueRotate10{filter:hue-rotate(360deg);}
+@keyframes invert {
+    from{filter: invert(0%)}
+    to{filter: invert(100%)}
+}
+.invert{
+    animation-name: invert;
+}
+.invert1{filter:invert(10%);}.invert2{filter:invert(20%);}.invert3{filter:invert(30%);}.invert4{filter:invert(40%);}.invert5{filter:invert(50%);}.invert6{filter:invert(60%);}.invert7{filter:invert(70%);}.invert8{filter:invert(80%);}.invert9{filter:invert(90%);}.invert10{filter:invert(100%);}@keyframes opacity {
+    from{filter: opacity(0%)}
+    to{filter: opacity(100%)}
+}
+@keyframes opacity {
+    from{filter: opacity(0%)}
+    to{filter: opacity(200%)}
+}
+.opacity{
+    animation-name: opacity;
+}
+.opacity1{filter:opacity(10%);}.opacity2{filter:opacity(20%);}.opacity3{filter:opacity(30%);}.opacity4{filter:opacity(40%);}.opacity5{filter:opacity(50%);}.opacity6{filter:opacity(60%);}.opacity7{filter:opacity(70%);}.opacity8{filter:opacity(80%);}.opacity9{filter:opacity(90%);}.opacity10{filter:opacity(100%);}
+@keyframes saturate {
+    from{filter: saturate(0%)}
+    to{filter: saturate(200%)}
+}
+.saturate{
+    animation-name: saturate;
+}
+.saturate1{filter:saturate(10%);}.saturate2{filter:saturate(20%);}.saturate3{filter:saturate(30%);}.saturate4{filter:saturate(40%);}.saturate5{filter:saturate(50%);}.saturate6{filter:saturate(60%);}.saturate7{filter:saturate(70%);}.saturate8{filter:saturate(80%);}.saturate9{filter:saturate(90%);}.saturate10{filter:saturate(100%);}.saturate11{filter:saturate(110%);}.saturate12{filter:saturate(120%);}.saturate13{filter:saturate(130%);}.saturate14{filter:saturate(140%);}.saturate15{filter:saturate(150%);}.saturate16{filter:saturate(160%);}.saturate17{filter:saturate(170%);}.saturate18{filter:saturate(180%);}.saturate19{filter:saturate(190%);}.saturate20{filter:saturate(200%);}
+@keyframes sepia {
+    from{filter: sepia(0%)}
+    to{filter: sepia(100%)}
+}
+.sepia{
+    animation-name: sepia;
+}
+.sepia1{filter:sepia(10%);}.sepia2{filter:sepia(20%);}.sepia3{filter:sepia(30%);}.sepia4{filter:sepia(40%);}.sepia5{filter:sepia(50%);}.sepia6{filter:sepia(60%);}.sepia7{filter:sepia(70%);}.sepia8{filter:sepia(80%);}.sepia9{filter:sepia(90%);}.sepia10{filter:sepia(100%);}
+@keyframes font{
+    0%{font-family: Georgia, serif;}
+    7.7%{font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+    15.4%{font-family: "Times New Roman", Times, serif;}
+    23.1%{font-family: Arial, Helvetica, sans-serif;}
+    30.8%{font-family: "Arial Black", Gadget, sans-serif;}
+    38.5%{font-family: "Comic Sans MS", cursive, sans-serif;}
+    46.2%{font-family: Impact, Charcoal, sans-serif;}
+    52.8%{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+    61.5%{font-family: Tahoma, Geneva, sans-serif;}
+    69.2%{font-family: "Trebuchet MS", Helvetica, sans-serif;}
+    76.9%{font-family: Verdana, Geneva, sans-serif;}
+    84.6%{font-family: "Courier New", Courier, monospace;}
+    92.3%{font-family: "Lucida Console", Monaco, monospace;}
+    100%{font-family: "Bad Script", normal, sans-serif;}
+}
+.allInOneFont{
+    animation-name:font;
+}
+.fontGeorgia{
+    font-family: Georgia, serif;
+}.fontPalatinoLinotype{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}.fontTimesNewRoman{
+    font-family: "Times New Roman", Times, serif;
+}.fontArial{
+    font-family: Arial, Helvetica, sans-serif;
+}.fontArialBlack{
+    font-family: "Arial Black", Gadget, sans-serif;
+}.fontComicSansMS{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}.fontImpact{
+    font-family: Impact, Charcoal, sans-serif;
+}.fontLucidaSansUnicode{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}.fontTahoma{
+    font-family: Tahoma, Geneva, sans-serif;
+}.fontTrebuchetMS{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}.fontVerdana{
+    font-family: Verdana, Geneva, sans-serif;
+}.fontCourierNew{
+    font-family: "Courier New", Courier, monospace;
+}.fontLucidaConsole{
+    font-family: "Lucida Console", Monaco, monospace;
+}.fontBadScript{
+    font-family: "Bad Script", normal, sans-serif;
+}
+@font-face {
+    font-family: 'Bad Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bad Script Regular'), local('BadScript-Regular'), url(https://fonts.gstatic.com/s/badscript/v6/6NUT8F6PJgbFWQn47_x7pO8kzO1A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
